@@ -1,14 +1,35 @@
-# NextJS NFT Marketplace with TheGraph
+# NFT Marketplace 
+This is a decentralized NFT marketplace built using Solidity, Hardhat, Next.js, and Graph for listening to API calls.
 
-*This repo has been updated for Sepolia over Goerli.*
+## Live Link
 
-## 1. Git clone the contracts repo
+
+## Overview
+The NFT marketplace allows users to buy and sell non-fungible tokens (NFTs) using Ethereum. Users can connect their Ethereum wallet to the marketplace, view a list of available NFTs, and purchase them using ETH.
+
+The marketplace also allows users to create their own NFTs by uploading images and descriptions, setting a price, and listing the NFT for sale.
+
+##Technologies Used
+1.Solidity: The programming language used for writing smart contracts on Ethereum.
+2.Hardhat: An Ethereum development environment that helps developers write, test, and deploy smart contracts.
+3.Next.js: A React framework for building server-side rendered web applications.
+4.Graph: A platform for building and querying decentralized APIs.
+
+## To Run First Deploy The Contract
+
+*I have Used Sepolia network You can use your own network and can change in `Contracts - Hardhat/helper-hardhat`.*
+
+## 1. Git clone the repo
 
 In it's own terminal / command line, run: 
 
 ```
-git clone https://github.com/PatrickAlphaC/hardhat-nft-marketplace-fcc
-cd hardhat-nextjs-nft-marketplace-fcc
+git clone https://github.com/Vswaroop04/SoliGraph-NFT-Marketplace/
+cd SoliGraph-NFT-Marketplace
+yarn
+cd Contracts - Hardhat
+yarn
+cd Thegraphbackend
 yarn
 ```
 
@@ -17,19 +38,23 @@ yarn
 After installing dependencies, deploy your contracts to sepolia:
 
 ```
+cd Contracts - Hardhat
 yarn hardhat deploy --network sepolia
 ```
 
-## 3. Deploy your subgraph
+## 3. Deploy your Own subgraph or Use My graph
+
+## For Creating Your Own Subgraph
+You can go to [Subgraph](https://thegraph.com/studio/) and can create a new subgraph and give the link of it in .env of root before that 
 
 ```
 cd ..
-git clone https://github.com/PatrickAlphaC/graph-nft-marketplace-fcc
-cd graph-nft-marketplace-fcc
-yarn
+cd Thegraphbackend
+graph init --studio <Subgraphname>
+graph auth --studio 
+graph codegen && graph build
+graph deploy --studio <Subgraphname>
 ```
-
-Follow the instructions of the [README](https://github.com/PatrickAlphaC/graph-nft-marketplace-fcc/blob/main/README.md) of that repo. 
 
 Then, make a `.env` file and place your temporary query URL into it as `NEXT_PUBLIC_SUBGRAPH_URL`.
 
@@ -43,4 +68,6 @@ Make sure that:
 ```
 yarn dev
 ```
-
+<p align="center">
+  Made with ❤ by Vishnu
+</p>
