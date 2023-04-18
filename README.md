@@ -7,6 +7,11 @@ This is a decentralized NFT marketplace built using Solidity, Hardhat, Next.js, 
 
 [Soli-Graph](https://soli-graph-nft-marketplace.vercel.app/)
 
+## Video Link
+[Youtube]https://youtu.be/0bnGAM4gPwU
+
+
+
 ## Overview
 The NFT marketplace allows users to buy and sell non-fungible tokens (NFTs) using Ethereum. Users can connect their Ethereum wallet to the marketplace, view a list of available NFTs, and purchase them using ETH.
 
