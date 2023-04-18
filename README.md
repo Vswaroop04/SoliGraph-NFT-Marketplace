@@ -1,6 +1,8 @@
 # NFT Marketplace 
 This is a decentralized NFT marketplace built using Solidity, Hardhat, Next.js, and Graph for listening to API calls.
 
+[img](https://i.ibb.co/yq5ZZXC/marketplace.png)
+
 ## Live Link
 
 
