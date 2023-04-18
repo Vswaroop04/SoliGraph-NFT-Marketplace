@@ -8,7 +8,7 @@ This is a decentralized NFT marketplace built using Solidity, Hardhat, Next.js, 
 [Soli-Graph](https://soli-graph-nft-marketplace.vercel.app/)
 
 ## Video Link
-[Youtube]https://youtu.be/0bnGAM4gPwU
+[Youtube](https://youtu.be/0bnGAM4gPwU)
 
 
 
