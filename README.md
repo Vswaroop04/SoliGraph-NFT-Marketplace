@@ -15,7 +15,7 @@ This is a decentralized NFT marketplace built using Solidity, Hardhat, Next.js, 
 ## Overview
 The NFT marketplace allows users to buy and sell non-fungible tokens (NFTs) using Ethereum. Users can connect their Ethereum wallet to the marketplace, view a list of available NFTs, and purchase them using ETH.
 
-The marketplace also allows users to create their own NFTs by uploading images and descriptions, setting a price, and listing the NFT for sale.
+The marketplace also allows users to create their own NFTs by uploading NFT Address, setting a price, and listing the NFT for sale.
 
 ##Technologies Used
 1.Solidity: The programming language used for writing smart contracts on Ethereum.
